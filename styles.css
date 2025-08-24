@@ -153,7 +153,7 @@ input {
 
 .title-container {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 }
 
@@ -168,6 +168,15 @@ input {
     justify-content: start;
     gap: 1em;
     align-items: center;
+}
+
+.link-sub-container:hover {
+    text-decoration: underline;
+    font-size: 1.05em;
+}
+
+.link-sub-container:active {
+    font-size: 1.1em;
 }
 
 /* IMAGES */
