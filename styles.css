@@ -9,6 +9,20 @@
     font-style: normal;
 }
 
+:root {
+    --filler: white;
+    --body: #EEEEEE;
+    --sidebar: #3674B5;
+    --button-hover: #6F9DCD;
+    --button-focus: #94B6DF;
+    --accent: #FADA7A;
+
+    --profile-1: #EA5B6F;
+    --profile-2: #FF894F;
+    --profile-3: #E195AB;
+    --profile-4: #74E291;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 6fr;
