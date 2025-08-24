@@ -100,11 +100,22 @@ input {
 .account-container {
     display: flex;
     align-items: center;
+    flex: 1 1 auto;
+}
+
+.inner-header-container {
     justify-content: space-between;
 }
 
 .account-container {
     gap: 1em;
+}
+
+.action-container {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    gap: 20%;
 }
 
 
