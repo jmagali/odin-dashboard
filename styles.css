@@ -227,7 +227,7 @@ h4,
     grid-template-columns: 1fr 1fr;
     display: grid;
     grid-column: 1 / 2;
-    gap: 25px;
+    gap: 40px;
 }
 
 .projects-container,
@@ -292,18 +292,38 @@ h4,
 }
 
 .profile-container {
-    border: 1px solid red;
     display: flex;
     justify-content: start;
 }
 
-h5,
-.small-profile {
+h5 {
     font-size: 1em;
 }
 
 h5 + p {
     font-size: 0.9em;
+}
+
+.trending-container .profile-container > .small-profile {
+    font-size: 2em;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#one {
+    background-color: var(--profile-1);
+}
+
+#two {
+    background-color: var(--profile-2);
+}
+
+#three {
+    background-color: var(--profile-3);
+}
+
+#four {
+    background-color: var(--profile-4);
 }
 
 /* IMAGES */
