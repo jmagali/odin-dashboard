@@ -115,7 +115,7 @@ input {
     display: flex;
     flex: 1 1 auto;
     justify-content: center;
-    gap: 20%;
+    gap: clamp(0.6em, 20%, 3em)
 }
 
 .action {
