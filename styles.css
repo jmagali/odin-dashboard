@@ -189,6 +189,7 @@ input {
 
     display: grid;
     grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: repeat(auto-fill, 1fr);
 
     gap: 1em;
 }
@@ -203,8 +204,9 @@ input {
 
 .card {
     background-color: var(--filler);
-    height: 3fr;
-    width: 400px;
+    min-height: 300px;
+    height: 1fr;
+    width: 1fr;
     
     padding: 1em;
 
