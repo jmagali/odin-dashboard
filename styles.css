@@ -34,6 +34,13 @@
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     background-color: var(--sidebar);
+    height: 100%;
+}
+
+body,
+html {
+    height: 100vh;
+    width: 100vw;
 }
 
 /* IMAGES */
@@ -41,6 +48,10 @@
 .icon {
     height: 2.5em;
     width: 2.5em;
+}
+
+.sidebar .icon {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(200%);
 }
 
 .profile-container > img.small-profile {
