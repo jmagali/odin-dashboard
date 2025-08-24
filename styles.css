@@ -194,17 +194,17 @@ input {
 }
 
 .projects-container {
-    grid-template-rows: repeat(auto-fill, minmax(200px, 0.8fr));
+    grid-template-rows: repeat(auto-fill, 1fr);
     grid-template-columns: 1fr 1fr;
     display: grid;
-    gap: 1em;
     grid-column: 1 / 2;
+    gap: 25px;
 }
 
 .card {
     background-color: var(--filler);
-    height: minmax(fit-content, 1fr);
-    width: minmax(fit-content, 1fr);
+    height: 3fr;
+    width: 400px;
     
     padding: 1em;
 
