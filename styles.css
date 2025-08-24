@@ -27,7 +27,7 @@
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: 0.5fr 10fr;
 }
 
 .sidebar {
@@ -186,6 +186,17 @@ input {
     padding: 2em;
 
     box-shadow: inset 1em 1em 1em 0 rgba(0, 0, 0, 0.1);
+
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+}
+
+.projects-container {
+    grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    gap: 1em;
+    grid-column: 1 / 2;
 }
 
 /* IMAGES */
