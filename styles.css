@@ -14,7 +14,7 @@
     --body: #EEEEEE;
     --sidebar: #3674B5;
     --button-hover: #6F9DCD;
-    --button-focus: #94B6DF;
+    --button-active: #94B6DF;
     --accent: #FADA7A;
 
     --profile-1: #EA5B6F;
@@ -126,6 +126,11 @@ input {
     padding: 1em;
     border-radius: 1.5em;
     border: none;
+}
+
+.action:hover,
+.action:focus {
+    background-color: var(--button-hover);
 }
 
 
