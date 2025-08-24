@@ -46,6 +46,9 @@
 
     display: grid;
     grid-template-rows: 1fr 1fr;
+
+    height: fit-content;
+    padding: 1em;
 }
 
 body,
@@ -61,7 +64,6 @@ html {
     justify-content: space-between;
     align-items: start;
     height: fit-content;
-    padding: 1em;
     gap: 5%;
 }
 
