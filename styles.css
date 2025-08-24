@@ -191,7 +191,14 @@ input {
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
 
-    gap: 1em;
+    gap: 2em;
+}
+
+h3,
+h4,
+.intro-container > h2,
+.profile-container > h3 {
+    font-weight: bold;
 }
 
 .exterior-projects-container {
