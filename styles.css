@@ -43,8 +43,6 @@
     width: 2.5em;
 }
 
-
-
 .profile-container > img.small-profile {
     background-color: var(--accent);
     border-radius: 1em;
@@ -52,4 +50,16 @@
 
     height: 3em;
     width: 3em;
+}
+
+.title-container > img,
+.account-container > img {
+    height: 5em;
+    width: 5em;
+}
+
+.account-container > img {
+    background-color: var(--accent);
+    border-radius: 5em;
+    padding: 10px;
 }
