@@ -188,15 +188,28 @@ input {
     box-shadow: inset 1em 1em 1em 0 rgba(0, 0, 0, 0.1);
 
     display: grid;
-    grid-template-columns: 7fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
+
+    gap: 1em;
 }
 
 .projects-container {
-    grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(200px, 0.8fr));
     grid-template-columns: 1fr 1fr;
     display: grid;
     gap: 1em;
     grid-column: 1 / 2;
+}
+
+.card {
+    background-color: var(--filler);
+    height: minmax(fit-content, 1fr);
+    width: minmax(fit-content, 1fr);
+    
+    padding: 1em;
+
+    border-radius: 1em;
+    box-shadow: 5px 5px 7px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* IMAGES */
