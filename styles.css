@@ -118,6 +118,16 @@ input {
     gap: 20%;
 }
 
+.action {
+    background-color: var(--sidebar);
+    color: var(--filler);
+    width: 9em;
+    text-align: center;
+    padding: 1em;
+    border-radius: 1.5em;
+    border: none;
+}
+
 
 /* IMAGES */
 
