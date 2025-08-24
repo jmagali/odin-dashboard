@@ -58,20 +58,19 @@ html {
 
 .nav {
     display: flex;
-    border: 1px solid red;
     justify-content: space-between;
     align-items: start;
     height: fit-content;
     padding: 1em;
+    gap: 5%;
 }
 
 .search-container {
     display: flex;
     justify-content: start;
-    border: 1px solid blue;
-    gap: 5em;
-    flex: 1 1 auto;
-    width: fit-content;
+    flex: 1 2 auto;
+    width: min-content;
+    gap: 1em;
 }
 
 input {
@@ -87,6 +86,14 @@ input {
     flex: 0.5 1 auto;
 }
 
+.profile-container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1em;
+    flex: 1 1 auto;
+}
+
 /* IMAGES */
 
 .icon {
@@ -100,7 +107,7 @@ input {
 
 .profile-container > img.small-profile {
     background-color: var(--accent);
-    border-radius: 1em;
+    border-radius: 50%;
     padding: 4px;
 
     height: 3em;
