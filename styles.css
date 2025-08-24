@@ -140,6 +140,35 @@ input {
     width: 9.2em;
 }
 
+/* SIDEBAR */
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    gap: 5em;
+
+    color: var(--filler);
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.link-sub-container {
+    display: flex;
+    justify-content: start;
+    gap: 1em;
+    align-items: center;
+}
 
 /* IMAGES */
 
@@ -158,7 +187,8 @@ input {
     width: 2.6em;
 }
 
-.sidebar .icon {
+.sidebar .icon,
+.title-container img {
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(200%);
 }
 
