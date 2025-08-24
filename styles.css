@@ -42,7 +42,6 @@
     grid-column: 2 / 3;
 
     background-color: var(--filler);
-    box-shadow: 0 0 1.5em 0 rgba(0, 0, 0, 0.5);
 
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -177,6 +176,16 @@ input {
 
 .link-sub-container:active {
     font-size: 1.1em;
+}
+
+/* BODY */
+
+.body {
+    background-color: var(--body);
+
+    padding: 2em;
+
+    box-shadow: inset 1em 1em 1em 0 rgba(0, 0, 0, 0.1);
 }
 
 /* IMAGES */
