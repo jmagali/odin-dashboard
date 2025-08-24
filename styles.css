@@ -105,6 +105,7 @@ input {
 
 .inner-header-container {
     justify-content: space-between;
+    margin-bottom: 1em;
 }
 
 .account-container {
@@ -145,6 +146,16 @@ input {
 .icon {
     height: 2.5em;
     width: 2.5em;
+}
+
+.icon:hover {
+    height: 2.55em;
+    width: 2.55em;
+}
+
+.icon:active {
+    height: 2.6em;
+    width: 2.6em;
 }
 
 .sidebar .icon {
