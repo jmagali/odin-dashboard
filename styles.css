@@ -197,7 +197,10 @@ input {
 h3,
 h4,
 .intro-container > h2,
-.profile-container > h3 {
+.profile-container > h3,
+.exterior-announcements-container > h2,
+.exterior-projects-container > h2,
+.exterior-trending-container > h2 {
     font-weight: bold;
 }
 
