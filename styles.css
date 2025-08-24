@@ -189,9 +189,27 @@ input {
 
     display: grid;
     grid-template-columns: 1.5fr 1fr;
-    grid-template-rows: repeat(auto-fill, 1fr);
+    grid-template-rows: 1fr 1fr;
 
     gap: 1em;
+}
+
+.exterior-projects-container {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+
+.exterior-announcements-container,
+.exterior-trending-container {
+    grid-column: 2 / 3;
+}
+
+.exterior-announcements-container {
+    grid-row: 1 / 2;
+}
+
+.exterior-trending-container {
+    grid-row: 2 / 3;
 }
 
 .projects-container {
@@ -200,6 +218,12 @@ input {
     display: grid;
     grid-column: 1 / 2;
     gap: 25px;
+}
+
+.projects-container,
+.announcements-container,
+.trending-container {
+    margin-top: 1em;
 }
 
 .card {
