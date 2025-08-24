@@ -253,6 +253,27 @@ h4,
     gap: 1em;
 }
 
+.card,
+.announcements-container,
+.trending-container {
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover,
+.card:focus,
+.announcements-container:hover,
+.announcements-container:focus,
+.trending-container:focus,
+.trending-container:hover {
+    transform: scale(1.025);
+}
+
+.card:active,
+.announcements-container:active,
+.trending-container:active {
+    transform: scale(1.05);
+}
+
 .post-action-container {
     align-self: end;
     display: flex;
