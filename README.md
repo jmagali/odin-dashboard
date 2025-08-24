@@ -3,7 +3,7 @@
 <p id="description">An admin dashboard with a projects, announcements, trending section, and a sidebar. <em>This project is part of The Odin Project's <a href="https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard#project-solution" target="_blank" rel="noopener noreferrer">Intermediate HTML and CSS Course!</a></em></p>
 
 <p align="center">
-    <a href="[https://jmagali.github.io/odin-sign-up-form/](https://jmagali.github.io/odin-dashboard/)">View Demo</a>
+    <a href="https://jmagali.github.io/odin-dashboard/">View Demo</a>
 </p>
 
 ## Preview
