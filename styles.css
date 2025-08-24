@@ -60,10 +60,11 @@ html {
 
 .nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: start;
     height: fit-content;
-    gap: 5%;
+    gap: 3%;
+    margin-right: 1em;
 }
 
 .search-container {
@@ -312,7 +313,7 @@ h4,
     justify-content: space-between;
 }
 
-.profile-container {
+.trending-container .profile-container {
     display: flex;
     justify-content: start;
 }
