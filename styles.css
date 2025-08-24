@@ -23,7 +23,20 @@
     --profile-4: #74E291;
 }
 
+/* LAYOUT */
+
 .container {
     display: grid;
     grid-template-columns: 1fr 6fr;
+}
+
+.sidebar {
+    grid-column: 1 / 2;
+}
+
+/* IMAGES */
+
+.icon {
+    height: 2em;
+    width: 2em;
 }
