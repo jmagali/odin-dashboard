@@ -208,10 +208,11 @@ input {
     height: 1fr;
     width: 1fr;
     
-    padding: 1em;
+    padding: 2em;
 
     border-radius: 1em;
     box-shadow: 5px 5px 7px 0 rgba(0, 0, 0, 0.2);
+    border-left: inset 1em var(--accent);
 }
 
 /* IMAGES */
