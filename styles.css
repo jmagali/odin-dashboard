@@ -54,6 +54,16 @@ html {
     width: 100vw;
 }
 
+/* HEADER */
+
+.nav {
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-between;
+    align-items: start;
+    height: fit-content;
+}
+
 /* IMAGES */
 
 .icon {
